@@ -1,1 +1,177 @@
 # Site.tarefa
+# Site.tarefa
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> CSS Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1">
+    
+    </head>
+    <body>
+
+
+
+        <header>
+            <h2>Cidades</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                 <li><a href="#">Santos</a></li>
+                 <li><a href="#">Ubatuba</a></li> 
+                 <li><a href="#">Limeira</a></li>    
+                    </ul>
+            </nav>
+        <article>
+            <h1> Santos</h1>
+            <p>Localizada no litoral paulista e a 72 quilômetros da Capital, a cidade ostenta o 5º lugar no ranking de qualidade de vida dos municípios brasileiros, conforme Índice de Desenvolvimento Humano (IDH) aferido pela Organização das Nações Unidas (ONU) com base nos níveis de expectativa de vida, educação e PIB per capita.</p>
+           
+            <div class="row">
+                <div class="coluna">
+                  <img src="Santinho.jpg.jpg"width="144" height="130" alt="descrição da imagem" style="width:100%">
+                </div>
+                <div class="coluna">
+                  <img src="Santos.jpg.jpg"width="144" height="130" alt="descrição da imagem" style="width:100%">
+                </div>
+                <div class="coluna">
+                  <img src="Satosao.jpg.jpg"width="144" height="130" alt="descrição da imagem" style="width:100%">
+                </div></div>
+              
+              <style>
+              .coluna{
+                float: left;
+                width: 33.33%;
+              .row::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+              </style> <p>Os setores do turismo, de serviços e da pesca em geral completam a lista de maiores atividades da economia santista. De um lado a economia pujante, de outro sua vocação para o lazer. Santos tem como principal atrativo os sete quilômetros de praia, acompanhados pelo maior jardim de orla do mundo - título concedido pelo Guinness World Records. </p>
+              <hr>
+        
+            <article>
+                <h1> Ubatuba</h1>
+                <p>Atualmente, a cidade possui 748 mil metros quadrados de área total, 102 praias, mais de 20 ilhas e grande parte de seu território é de Mata Atlântica intocada. Suas praias oferecem condições para as práticas de surf, mergulho, pesca, vela e para todos os tipos de esportes aquáticos.</p>
+                <div class="row">
+                    <div class="coluna">
+                      <img src="Ubatuba.jpg.webp"width="144" height="130" alt="descrição da imagem" style="width:100%">
+                    </div>
+                    <div class="coluna">
+                      <img src="Ubatuba1.jpg.webp"width="144" height="130" alt="descrição da imagem" style="width:100%">
+                    </div>
+                    <div class="coluna">
+                      <img src="Ubatuba3.jpg.avif"width="144" height="130" alt="descrição da imagem" style="width:100%">
+                    </div></div>
+                  
+                  <style>
+                  .coluna{
+                    float: left;
+                    width: 33.33%;
+                  .row::after {
+                    content: "";
+                    clear: both;
+                    display: table;
+                  }
+                  </style>
+                <p>Considerada um paraíso ecológico do Litoral Norte paulista, o município conta com ampla rede hoteleira e gastronômica e agrega infinitas riquezas naturais. Sua gente simples, de rica cultura, acolhe os visitantes em busca de lazer e diversão. </p>
+                </article>
+                <hr>
+                <article>
+                    <h1> Blumenau</h1>
+                    <p>A cidade é destaque em diversos setores da economia. Entre os principais aparecem o mercado Têxtil e a Tecnologia da Informação. No ranking das 100 maiores cidades brasileiras, elaborado pela Delta Economics & Finance, o município ficou em 4º lugar geral e recebeu a maior pontuação do estudo na dimensão econômica e alta pontuação em bem estar.</p>
+                    <div class="row">
+                        <div class="coluna">
+                          <img src="blui.jpg.jpg"width="144" height="130" alt="descrição da imagem" style="width:100%">
+                        </div>
+                        <div class="coluna">
+                          <img src="bluie.jpg.webp"width="144" height="130" alt="descrição da imagem" style="width:100%">
+                        </div>
+                        <div class="coluna">
+                          <img src="Blu.jpg.webp"width="144" height="130" alt="descrição da imagem" style="width:100%">
+                        </div></div>
+                      
+                      <style>
+                      .coluna{
+                        float: left;
+                        width: 33.33%;
+                      .row::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                      }
+                      </style>
+                    <p>A cidade de Blumenau tem o foco do turismo voltado para as cervejarias especiais. Entretanto, a cidade oferece outras atrações não necessariamente ligadas à cerveja. Entre um copo e outro de chope, você poderá conhecer mais sobre a cultura germânica, visitar alguns museus que contam como se desenvolveu Blumenau e passear pelos cantinhos da cidade mais populares entre os moradores. Se o seu objetivo for mesmo conhecer as cervejas locais, veja mais no post especial sobre as cervejarias de Blumenau. Mas se você busca dar um intervalo nas degustações, aproveite para visitar alguns dos pontos turísticos da cidade.</p>
+                    </article>
+            </article>
+        </section>
+         <footer>
+            <p>Rodapé</p>
+        </footer>
+  
+  
+  
+    </body>
+</html>
+<meta name="viewport"content="width=device-widht, Initial-scale=1">
+<style>
+  *  {
+        box-sizing: border-box;
+    }
+    body {
+        fant-family: Arial, Helvetica, sans-serif;
+    }
+    /* Style the header */
+    header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+
+    }
+    /* Container for flexboxes */
+    section {
+        display: -webkit-flex;
+        display: flex;
+        
+    }
+    /* Style the navigation menu */
+    nav {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background: #ccc
+        padding: 20px;
+    }
+    /* Style the list inside the menu */
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    
+    }
+    /* Style the content */
+    article {
+   -webkit-flex: 3;
+   -ms-flex: 3;
+   flex: 3;
+   background-color: #f1f1f1;
+   padding: 10px;
+    }
+    /* Style the footer */
+    footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+    /* Layout reponsivo- do menu e do conteúdo dentro da seção.*/
+    @media (max-widht: 600px) {
+        section{
+            -webkit-flex-direction: column;
+            flex-direction: column;
+        }
+    }
+
+
+</style>
